@@ -1,7 +1,7 @@
 {
-  "name": "@tmcb/release",
+  "name": "@0-vortex/gh-release-test",
   "description": "Node.js and docker github actions compatible semantic-release shareable config to publish to npmjs.com and ghcr.io",
-  "version": "1.0.6",
+  "version": "0.0.0-development",
   "license": "MIT",
   "files": [
     "release.config.js"
@@ -12,10 +12,10 @@
     "node": ">=20",
     "npm": ">=10"
   },
-  "bugs": "https://github.com/TMCB-SPACE/release/issues",
+  "bugs": "https://github.com/0-vortex/gh-release-test/issues",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/TMCB-SPACE/release.git"
+    "url": "git+ssh://git@github.com/0-vortex/gh-release-test.git"
   },
   "peerDependencies": {
     "semantic-release": ">=22.0.7"

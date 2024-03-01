@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="https://gist.githubusercontent.com/0-vortex/3ba0d05bcd4afdbd0f2bf20542caf682/raw/02c432297a6822cd2944a41b9cc9986357d49748/His_Worshipful_Grace-1.svg" width="400">
+  <img src="https://avatars.githubusercontent.com/u/155160495?v=4" width="400">
 
-# @tmcb/release
+# @0-vortex/gh-release-test
 
 > [**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish to `npm` and/or `ghcr`.
 
 > now available as a [GitHub Marketplace action](https://github.com/marketplace/actions/tmcb-space-release)
 
-[![Commits](https://img.shields.io/github/commit-activity/w/TMCB-SPACE/release?style=flat)](https://github.com/TMCB-SPACE/release/pulse)
-[![Issues](https://img.shields.io/github/issues/TMCB-SPACE/release.svg?style=flat)](https://github.com/TMCB-SPACE/release/issues)
-[![Releases](https://img.shields.io/github/v/release/TMCB-SPACE/release.svg?style=flat)](https://github.com/TMCB-SPACE/release/releases)
+[![Commits](https://img.shields.io/github/commit-activity/w/0-vortex/gh-release-test?style=flat)](https://github.com/0-vortex/gh-release-test/pulse)
+[![Issues](https://img.shields.io/github/issues/0-vortex/gh-release-test.svg?style=flat)](https://github.com/0-vortex/gh-release-test/issues)
+[![Releases](https://img.shields.io/github/v/release/0-vortex/gh-release-test.svg?style=flat)](https://github.com/0-vortex/gh-release-test/releases)
 
 </div>
 
@@ -85,7 +85,7 @@ jobs:
 
       - name: "🚀 release"
         id: semantic-release
-        uses: docker://ghcr.io/tmcb-space/release:1.0.0
+        uses: docker://ghcr.io/0-vortex/gh-release-test:1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -127,7 +127,7 @@ jobs:
 
       - name: "🚀 release"
         id: semantic-release
-        uses: TMCB-SPACE/release@v1
+        uses: 0-vortex/gh-release-test@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
